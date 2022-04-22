@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اللغة العربية</string>
+    <string name="category_phrases">الجمل</string>
+    <string name="category_colors">الألوان</string>
+    <string name="category_numbers">الأرقام</string>
+    <string name="category_family">أفراد الأسرة</string>
+    <string name="one">واحد</string>
+    <string name="two">إثنين</string>
+    <string name="three">ثلاثة</string>
+    <string name="four">أربعة</string>
+    <string name="five">خمسة</string>
+    <string name="six">ستة</string>
+    <string name="seven">سبعة</string>
+    <string name="eight">ثمانية</string>
+    <string name="nine">تسعة</string>
+    <string name="ten">عشرة</string>
+</resources>

@@ -25,13 +25,18 @@
 
     <!-- Background color for the numbers category -->
     <color name="category_numbers">#000000</color>
-
+    <!-- Text color for the numbers category -->
+    <color name="text_numbers">#FFFFFF</color>
     <!-- Background color for the family members category -->
     <color name="category_family">#CD2216</color>
-
+    <!-- Text color for the family category -->
+    <color name="text_family">#FFFFFF</color>
     <!-- Background color for the colors category -->
     <color name="category_colors">#FFFFFF</color>
-
+    <!-- Text color for the colors category -->
+    <color name="text_colors">#CD2216</color>
     <!-- Background color for the phrases category -->
     <color name="category_phrases">#236714</color>
+    <!-- Text color for the phrases category -->
+    <color name="text_phrases">#FFFFFF</color>
 </resources>

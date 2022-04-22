@@ -9,11 +9,10 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class PhrasesActivity extends AppCompatActivity {
-    TextView arabicTextView, defaultTextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_phrases);
+        setContentView(R.layout.word_list);
         //Create a list of words
         ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word ("إلى أين أنت ذاهب؟","Where are you going?"));
@@ -27,12 +26,8 @@ public class PhrasesActivity extends AppCompatActivity {
         words.add(new Word("لنذهب.","Let's go."));
         words.add(new Word("تعال هنا.","Come here."));
 
-        arabicTextView  = findViewById(R.id.arabic_text_view);
-        defaultTextView = findViewById(R.id.default_text_view);
-
-
-        WordAdapter wordAdapter = new WordAdapter(this,words);
-        ListView listView = findViewById(R.id.phrasesListView);
+        WordAdapter wordAdapter = new WordAdapter(this,words,R.color.category_phrases,R.color.text_phrases);
+        ListView listView = findViewById(R.id.list);
         listView.setAdapter(wordAdapter);
     }//end of onCreate()
-}
+}//end class PhrasesActivity
